@@ -101,15 +101,15 @@ Itt kell megadni a termékre vonatkozó tulajdonságnak az értékét.
         <category>38</category>
         <attributes>
             <attribute>
-                <attribute_id>Hosszúság (cm)</attribute_id>
+                <attribute_id>4</attribute_id>
                 <attribute_value>90</attribute_value>
             </attribute>
             <attribute>
-                <key>Szélesség (cm)</key>
+                <attribute_id>7</attribute_id>
                 <attribute_value>23</attribute_value>
             </attribute>
             <attribute>
-                <attribute_id>Anyag</attribute_id>
+                <attribute_id>9</attribute_id>
                 <attribute_value>MDF</attribute_value>
             </attribute>
         </attributes>
