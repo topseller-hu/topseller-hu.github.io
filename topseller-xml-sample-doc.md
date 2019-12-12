@@ -63,7 +63,8 @@ Minden képet külön `image` tag közé kell tenni.
 <category>27</category>
 ```
 Itt kell besorolni a terméket a topseller.hu által létrehozott kategóriák közé.
-Kategóriák listája: 
+Kategóriák listája:
+* 1 =
 
 ## attributes
 ```xml
@@ -85,3 +86,34 @@ Tulajdonságok listája:
 Itt kell megadni a termékre vonatkozó tulajdonságnak az értékét.
 
 ## Példa xml
+```xml
+<products>
+    <product>
+        <product_id>AB123</product_id>
+        <name>Fali polc</name>
+        <price>12500</price>
+        <discount_price>10000</discount_price>
+        <images>
+            <image>http://example.com/image1.png</image>
+            <image>http://example.com/image2.png</image>
+            <image>http://example.com/image3.png</image>
+        </images>
+        <category>38</category>
+        <attributes>
+            <attribute>
+                <attribute_id>Hosszúság (cm)</attribute_id>
+                <attribute_value>90</attribute_value>
+            </attribute>
+            <attribute>
+                <key>Szélesség (cm)</key>
+                <attribute_value>23</attribute_value>
+            </attribute>
+            <attribute>
+                <attribute_id>Anyag</attribute_id>
+                <attribute_value>MDF</attribute_value>
+            </attribute>
+        </attributes>
+        <description>Modern fali polc Stilista® márkájú termék sorozatból VOLATO köszönhetően a lebegtető hatásnak gyönyörű kelléke lesz a szobának. Polc szélessége 3,8 cm és max. teherbírása 10 kg függően a fal anyagától, amelyre a polc el lesz helyezve.</description>
+    </product>
+</products>
+```
