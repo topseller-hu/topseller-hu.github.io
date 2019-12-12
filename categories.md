@@ -1,4 +1,8 @@
-# Topseller kategória lista
+---
+layout: default
+title: Kategóriák
+description: Itt található a topseller.hu kategória listája azonosítókkal ellátva
+---
 
 * 1 = Bútor
   * 2 = Nappali, Iroda
