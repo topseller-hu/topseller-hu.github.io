@@ -25,7 +25,7 @@ Ezt az azonosítót a saját webáruházadból kell megadnod, hogy később betu
 ```xml
 <name>Fali polc</name>
 ```
-Termék megnevezése.
+Ez a név fog megjelenni a topseller.hu-n a termékeknél.
 
 ## description
 ```xml
