@@ -5,7 +5,7 @@ description: Itt található a topseller.hu kategória listája azonosítókkal 
 page.title: Teszt
 ---
 
-* 1 = Bútor
+* 1 = Bútora
   * 2 = Nappali, Iroda
     * 3 = TV állvány
     * 4 = Forgó szék
