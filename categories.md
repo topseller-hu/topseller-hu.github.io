@@ -2,6 +2,7 @@
 layout: default
 title: Kategóriák
 description: Itt található a topseller.hu kategória listája azonosítókkal ellátva
+page.title: Teszt
 ---
 
 * 1 = Bútor
