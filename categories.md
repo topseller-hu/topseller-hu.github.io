@@ -1,4 +1,4 @@
-Amikor a lista beljebb törik akkor az azt jelenti, hogy a kategóriák onnantól az adott alkategória alá tartozik.
+Ha a lista beljebb törik akkor a kategóriák onnantól az adott alkategória alá tartozik.
 
 A lista ID = KATEGÓRIA alapon van összeállítva.
 * 1 = Bútor
