@@ -1,3 +1,4 @@
+AZONOSÍTÓ = KATEGÓRIA
 * 1 = Bútor
   * 2 = Nappali, Iroda
     * 3 = TV állvány
