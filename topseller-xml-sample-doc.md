@@ -63,6 +63,7 @@ Minden képet külön `image` tag közé kell tenni.
 <category>27</category>
 ```
 Itt kell besorolni a terméket a topseller.hu által létrehozott kategóriák közé.
+
 [Kategóriák listája](categories.md)
 
 ## attributes
