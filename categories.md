@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Kategóriák
-description: Itt található a topseller.hu kategória listája azonosítókkal ellátva
-page.title: Teszt
 ---
 
-* 1 = Bútora
+* 1 = Bútor
   * 2 = Nappali, Iroda
     * 3 = TV állvány
     * 4 = Forgó szék
