@@ -1,3 +1,3 @@
 ## Oldalak
-* [XML Séma](topseller-xml-sample.md)
-* [Kategóriák](categories.md)
+* [XML Séma](topseller-xml-sample.html)
+* [Kategóriák](categories.html)
