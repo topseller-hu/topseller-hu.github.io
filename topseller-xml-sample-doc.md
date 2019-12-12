@@ -12,6 +12,7 @@ Ez a dokumentáció a topseller.hu termékek importálásához való xml sémát
 1. [attributes](#attributes)
     1. [attribute_id](#attribute_id)
     1. [attribute_value](#attribute_value)
+1. [Példa xml](#példa-xml)
 
 ## product_id
 ```xml
