@@ -372,6 +372,6 @@ A lista ID = KATEGÓRIA alapon van összeállítva.
     * 369 = Karkötők
     * 370 = Díszdobozok
     * 371 = Medálok
-    * 372 = Ékszershop | Swarovski ékszerek
+    * 372 = Ékszershop Swarovski ékszerek
     * 373 = Piercing
     * 374 = Karóra
