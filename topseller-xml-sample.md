@@ -1,19 +1,14 @@
 ### Tartalomjegyzék
-#### Szükséges xml tagek
 1. [id](#id)
 1. [name](#name)
 1. [description](#description)
 1. [price](#price)
 1. [images](#images)
 1. [category](#category)
-
-
-#### Opcionális xml tagek
 1. [discount_price](#discount_price)
 1. [attributes](#attributes)
 1. [delivery_cost](#delivery_cost)
-
-* [Példa xml](#példa-xml)
+1. [Példa xml](#példa-xml)
 
 ## id
 ```xml
