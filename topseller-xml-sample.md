@@ -1,6 +1,3 @@
-# Topseller xml séma
-Ez a dokumentáció a topseller.hu termékek importálásához való xml sémát mutatja be.
-
 ### Tartalomjegyzék
 1. [id](#id)
 1. [name](#name)
@@ -8,18 +5,16 @@ Ez a dokumentáció a topseller.hu termékek importálásához való xml sémát
 1. [price](#price)
 1. [discount_price](#discount_price)
 1. [images](#images)
-    * [image](#image)
 1. [category](#category)
 1. [attributes](#attributes)
-    1. [attribute_id](#attribute_id)
-    1. [attribute_value](#attribute_value)
 1. [Példa xml](#példa-xml)
 
 ## id
 ```xml
 <id>ABC123</id>
 ```
-Ezt az azonosítót a saját webáruházából kell megadnia, hogy később betudja azonosítani melyik terméket rendelték meg.
+Ezt az azonosítót a saját webáruházából kell megadnia, hogy később betudja azonosítani melyik terméket rendelték meg illetve al terméket tudjon hozzáadni.
+Fontos, hogy egyedi azonosító legyen tehát ne ismétlődjön kétszer ugyanaz az azonosító.
 
 ## name
 ```xml
@@ -37,21 +32,21 @@ Termék leírása.
 ```xml
 <price>12000</price>
 ```
-Termék bruttó ára.
+Termék bruttó forintban értendő ára.
 
 ## discount_price
 ```xml
 <discount_price>10000</discount_price>
 ```
-Termék akciós ára.
+Termék forintban értendő akciós ára.
 Ha a termékre nincs érvényes leárazás akkor a mezőt nem kell megadni.
 
 ## images
 ```xml
 <images>
-   <image>https://example.com/img01.png</image>
-   <image>https://example.com/img02.png</image>
-   <image>https://example.com/img03.png</image>
+   <image>https://example.com/image1.png</image>
+   <image>https://example.com/image2.png</image>
+   <image>https://example.com/image3.png</image>
 </images>
 ```
 A termékekhez való képeket itt lehet megadni.
@@ -89,31 +84,28 @@ Az ár forintban értendő.
 ```xml
 <products>
     <product>
-        <product_id>AB123</product_id>
+        <product_id>ABC123</product_id>
         <name>Fali polc</name>
         <price>12500</price>
         <discount_price>10000</discount_price>
         <images>
-            <image>http://example.com/image1.png</image>
-            <image>http://example.com/image2.png</image>
-            <image>http://example.com/image3.png</image>
+            <image>https://example.com/image1.png</image>
+            <image>https://example.com/image2.png</image>
+            <image>https://example.com/image3.png</image>
         </images>
-        <category>38</category>
+        <category>Bútor > Nappali > Fali polc</category>
         <attributes>
-            <attribute>
-                <attribute_id>4</attribute_id>
-                <attribute_value>90</attribute_value>
+           <attribute>
+                <name>Szín</name>
+                <value>zöld</value>
             </attribute>
             <attribute>
-                <attribute_id>7</attribute_id>
-                <attribute_value>23</attribute_value>
-            </attribute>
-            <attribute>
-                <attribute_id>9</attribute_id>
-                <attribute_value>MDF</attribute_value>
+                <name>Anyag</name>
+                <value>MDF</value>
             </attribute>
         </attributes>
         <description>Modern fali polc Stilista® márkájú termék sorozatból VOLATO köszönhetően a lebegtető hatásnak gyönyörű kelléke lesz a szobának. Polc szélessége 3,8 cm és max. teherbírása 10 kg függően a fal anyagától, amelyre a polc el lesz helyezve.</description>
+       <delivery_cost>3000</delivery_cost>
     </product>
 </products>
 ```
