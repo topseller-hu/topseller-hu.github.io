@@ -2,7 +2,7 @@
 Ez a dokumentáció a topseller.hu termékek importálásához való xml sémát mutatja be.
 
 ### Tartalomjegyzék
-1. [product_id](#product_id)
+1. [id](#id)
 1. [name](#name)
 1. [description](#description)
 1. [price](#price)
@@ -15,17 +15,17 @@ Ez a dokumentáció a topseller.hu termékek importálásához való xml sémát
     1. [attribute_value](#attribute_value)
 1. [Példa xml](#példa-xml)
 
-## product_id
+## id
 ```xml
-<product_id>ABC123</product_id>
+<id>ABC123</id>
 ```
-Ezt az azonosítót a saját webáruházadból kell megadnod, hogy később betudd azonosítani melyik terméket rendelték meg.
+Ezt az azonosítót a saját webáruházából kell megadnia, hogy később betudja azonosítani melyik terméket rendelték meg.
 
 ## name
 ```xml
 <name>Fali polc</name>
 ```
-Ez a név fog megjelenni a topseller.hu-n a termékeknél.
+Termék neve.
 
 ## description
 ```xml
@@ -44,47 +44,46 @@ Termék bruttó ára.
 <discount_price>10000</discount_price>
 ```
 Termék akciós ára.
-Ha a termékre nem érvényes semmilyen akció akkor 0 értéket kell megadni.
+Ha a termékre nincs érvényes leárazás akkor a mezőt nem kell megadni.
 
 ## images
 ```xml
-<images></images>
+<images>
+   <image>https://example.com/img01.png</image>
+   <image>https://example.com/img02.png</image>
+   <image>https://example.com/img03.png</image>
+</images>
 ```
-Ehhez a részhez kell megadni a termékekhez való képeket.
-
-### image
-```xml
-<image>https://example.com/img.png</image>
-```
-A termékhez való képet itt lehet hozzáadni.
+A termékekhez való képeket itt lehet megadni.
 Minden képet külön `image` tag közé kell tenni.
 
 ## category
 ```xml
-<category>27</category>
+<category>Bútor > Nappali > Fali polc</category>
 ```
-Itt kell besorolni a terméket a topseller.hu által létrehozott kategóriák közé.
-
-[Kategóriák listája](categories.md)
+A terméket itt kell besorolni egy kategória alá.
 
 ## attributes
 ```xml
-<attributes></attributes>
+<attributes>
+   <attribute>
+      <name>Szín</name>
+      <value>zöld</value>
+   </attribute>
+   <attribute>
+      <name></name>
+      <value>zöld</value>
+   </attribute>
+</attributes>
 ```
 A termékekre vonatkozó tulajdonságok.
 
-### attribute_id
+## delivery_cost
 ```xml
-<attribute_id>3</attribute_id>
+<delivery_cost>3000</delivery_cost>
 ```
-Itt kell megadni a termékre vonatkozó tulajdonság azonosítóját.
-Tulajdonságok listája:
-
-### attribute_value
-```xml
-<attribute_value>zöld</attribute_value>
-```
-Itt kell megadni a termékre vonatkozó tulajdonságnak az értékét.
+A termék szállítási költsége.
+Az ár forintban értendő.
 
 ## Példa xml
 ```xml
