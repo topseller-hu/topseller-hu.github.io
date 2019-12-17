@@ -8,6 +8,7 @@
 * [discount_price](#discount_price)
 * [attributes](#attributes)
 * [delivery_cost](#delivery_cost)
+* [parent_id](#parent_id)
 * [Példa xml](#példa-xml)
 
 ## id
@@ -81,6 +82,12 @@ A termékekre vonatkozó tulajdonságok.
 A termék szállítási költsége.
 Az ár forintban értendő.
 
+## delivery_cost
+```xml
+<parent_id>ABC123</parent_id>
+```
+Termék csoportosítása.
+
 ## Példa xml
 ```xml
 <products>
@@ -99,6 +106,31 @@ Az ár forintban értendő.
            <attribute>
                 <name>Szín</name>
                 <value>zöld</value>
+            </attribute>
+            <attribute>
+                <name>Anyag</name>
+                <value>MDF</value>
+            </attribute>
+        </attributes>
+        <description>Modern fali polc Stilista® márkájú termék sorozatból VOLATO köszönhetően a lebegtető hatásnak gyönyörű kelléke lesz a szobának. Polc szélessége 3,8 cm és max. teherbírása 10 kg függően a fal anyagától, amelyre a polc el lesz helyezve.</description>
+       <delivery_cost>3000</delivery_cost>
+    </product>
+   <product>
+        <product_id>DEF456</product_id>
+      <parent_id>ABC123</parent_id>
+        <name>Fali polc</name>
+        <price>10000</price>
+        <discount_price>7000</discount_price>
+        <images>
+            <image>https://example.com/image4.png</image>
+            <image>https://example.com/image5.png</image>
+            <image>https://example.com/image6.png</image>
+        </images>
+        <category>Bútor > Nappali > Fali polc</category>
+        <attributes>
+           <attribute>
+                <name>Szín</name>
+                <value>piros</value>
             </attribute>
             <attribute>
                 <name>Anyag</name>
