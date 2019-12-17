@@ -111,7 +111,7 @@ Ha egy terméknek különböző változatai vannak akkor a `parent_id` tag köz�
 ``` xml
 <products>
     <product>
-        <product_id>ABC123</product_id>
+        <id>ABC123</id>
         <name>Fali polc</name>
         <price>12500</price>
         <discount_price>10000</discount_price>
@@ -138,7 +138,7 @@ Ha egy terméknek különböző változatai vannak akkor a `parent_id` tag köz�
        <delivery_cost>3000</delivery_cost>
     </product>
    <product>
-        <product_id>DEF456</product_id>
+        <id>DEF456</id>
       <parent_id>ABC123</parent_id>
         <name>Fali polc</name>
         <price>10000</price>
