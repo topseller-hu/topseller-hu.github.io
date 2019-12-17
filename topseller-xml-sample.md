@@ -88,6 +88,7 @@ A `category_name` taget csak abban az esetben kell hozzáadni ha ez a kategória
 ```
 A termékekre vonatkozó tulajdonságok.  
 Minden tulajdonságot külön `attribute` tag közé kell helyezni.  
+A `id` tagnek egyedi azonosítónak kell lennie ami a tulajdonságot azonosítja be.  
 A `name` taget csak abban az esetben kell hozzáadni ha ez a tulajdonság még nincs átirányítva megfelelően a rendszerünkben.
 
 ## delivery_cost
