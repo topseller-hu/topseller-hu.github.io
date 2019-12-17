@@ -169,3 +169,4 @@ Ha egy terméknek különböző változatai vannak akkor a `parent_id` tag köz�
 </products>
 ```
 
+Amennyiben további kérdései vannak az xml sablonnal kapcsolatban kérem írjon a david.brutoczki@topseller.hu címre.
