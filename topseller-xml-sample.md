@@ -139,7 +139,7 @@ Ha egy terméknek különböző változatai vannak akkor a `parent_id` tag köz�
     </product>
    <product>
         <id>DEF456</id>
-      <parent_id>ABC123</parent_id>
+        <parent_id>ABC123</parent_id>
         <name>Fali polc</name>
         <price>10000</price>
         <discount_price>7000</discount_price>
