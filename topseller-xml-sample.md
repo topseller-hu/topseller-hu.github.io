@@ -1,16 +1,16 @@
 ### Tartalomjegyzék
 
-* [id](#id)
-* [name](#name)
-* [description](#description)
-* [price](#price)
-* [images](#images)
-* [category](#category)
-* [discount_price](#discount_price)
-* [attributes](#attributes)
-* [delivery_cost](#delivery_cost)
-* [parent_id](#parent_id)
-* [Példa xml](#példa-xml)
+- [id](#id)
+- [name](#name)
+- [description](#description)
+- [price](#price)
+- [discount_price](#discountprice)
+- [images](#images)
+- [category](#category)
+- [attributes](#attributes)
+- [delivery_cost](#deliverycost)
+- [parent_id](#parentid)
+- [Példa xml](#p%c3%a9lda-xml)
 
 ## id
 
@@ -105,7 +105,7 @@ Az ár forintban értendő.
 <parent_id>ABC123</parent_id>
 ```
 
-Ha egy terméknek különböző változatai vannak akkor a `parent_id` tag közé annak a terméknek az azonosítóját kell megadni amelyik termék alatt megszeretnénk jeleníteni a többit.
+Ha egy terméknek különböző változatai vannak akkor a `parent_id` tag közé annak a terméknek az azonosítóját kell megadni amelyik termék mellé szeretnénk csoportosítani a többit.
 
 ## Példa xml
 
