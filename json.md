@@ -36,8 +36,8 @@ Termék kategóriájának azonosítója.
 Típus: string  
 Termék kategóriájának legalsó neve.
 
-  - route
-  Típus: string
+  - route  
+  Típus: string  
   Termék kategóriájának elérési útvonala.
 
 - attributes  
