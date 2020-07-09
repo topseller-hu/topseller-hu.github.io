@@ -24,17 +24,21 @@ Termék akciós ára áfával.
 Típus: string-array  
 Termék képei listában.
 
-- category  
+- category*  
 Típus: object  
 Termék kategóriája.
 
-  - id  
+  - id*  
 Típus: integer, string  
 Termék kategóriájának azonosítója.
 
-  - name  
+  - name*  
 Típus: string  
-Termék kategóriájának neve.
+Termék kategóriájának legalsó neve.
+
+  - route
+  Típus: string
+  Termék kategóriájának elérési útvonala.
 
 - attributes  
 Típus: object-array  
@@ -67,7 +71,8 @@ Termék tulajdonságai.
 		],
 		"category": {
 			"id": 123,
-			"name": "Teszt kategória"
+			"name": "Teszt kategória",
+			"route": "Fő teszt kategória / Al teszt kategória / Teszt kategória"
 		},
 		"attributes": [
 			{
