@@ -1,4 +1,4 @@
-Csillaggal jelölt mezők megadása kötelező.
+Csillaggal jelölt objektumok megadása kötelező.
 
 - id*  
 Típus: integer, string  
